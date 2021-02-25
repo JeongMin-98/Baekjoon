@@ -7,6 +7,7 @@ int main() {
 	int c = a + b;
 
 	if (c > 5) {
+		c = c - 5;
 		cout << c;
 	}
 }
